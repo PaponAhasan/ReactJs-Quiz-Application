@@ -8,7 +8,7 @@ const Question = ({ children }) => {
         <span class="material-icons-outlined"> help_outline </span>
         Here goes the question from Learn with Sumit?
       </div>
-      {children}
+      <div class={classes.question}>{children}</div>
     </div>
   );
 };

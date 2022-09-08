@@ -16,15 +16,11 @@ const Answer = () => {
         text={"Test Answer"}
         type="checkbox"
       />
-      <Checkbox
+      {/* <Checkbox
         className={` ${classes.answer} ${classes.correct}`}
         text={"Test Answer"}
         type="checkbox"
-      />
-
-      {/* <label class="answer" for="option1">
-        <input type="checkbox" id="option1" />A New Hope 1
-      </label> */}
+      /> */}
     </div>
   );
 };
